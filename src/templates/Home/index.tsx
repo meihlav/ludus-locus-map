@@ -12,12 +12,12 @@ export default function HomeTemplate({ places }: MapProps) {
   return (
     <>
       <NextSeo
-        title="My Trips"
+        title="Ludus Map"
         description="A simple project to show in a map the places that I went and show more informations and photos when clicked."
         canonical="https://my-trips.willianjusten.com.br"
         openGraph={{
           url: 'https://my-trips.willianjusten.com.br',
-          title: 'My Trips',
+          title: 'Ludus Map',
           description:
             'A simple project to show in a map the places that I went and show more informations and photos when clicked.',
           images: [
@@ -25,10 +25,10 @@ export default function HomeTemplate({ places }: MapProps) {
               url: 'https://my-trips.willianjusten.com.br/img/cover.png',
               width: 1280,
               height: 720,
-              alt: 'My Trips'
+              alt: 'Ludus Map'
             }
           ],
-          site_name: 'My Trips'
+          site_name: 'Ludus Map'
         }}
       />
       <LinkWrapper href="/about">

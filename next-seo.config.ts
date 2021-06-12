@@ -3,7 +3,7 @@ export default {
     type: 'website',
     locale: 'en_US',
     url: 'https://my-trips.willianjusten.com.br',
-    site_name: 'My Trips'
+    site_name: 'Ludus Map'
   },
   twitter: {
     handle: '@Willian_justen',
